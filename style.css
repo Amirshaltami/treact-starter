@@ -65,6 +65,48 @@ nav {
     margin: 8px 0;
     padding-bottom: 4px;
 }
+.nav__logo--img{
+    width:40px;
+    height:40px;
+    margin-right: 12px;
+
+}
+.nav__logo--text{
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0.6px;
+}
+.nav__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 24px;
+    transition: color 300ms ease;
+}
+.nav__link:hover{
+    color:#6415ff;
+
+}
+.nav__link--login{
+    margin-left: 48px;
+}
+.nav__link--primary{
+    background-color: #6415ff;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 500px;
+    margin-right: 0;
+}
+.nav__link--primry:hover {
+    background-color: #500ad4;
+    color:#fff;
+}
 
 
 .btn__menu {
@@ -146,6 +188,76 @@ header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.header__description{
+    width:45%
+}
+
+.header__title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 32px;
+}
+.header__para {
+    font-size: 18px;
+    line-height: 1.5;
+    color:#7c8ba1;
+    margin-bottom: 32px;
+}
+.header__input--container{
+    position: relative;
+    max-width: 448px;
+    margin-bottom: 48px;
+}
+.header__input{
+    width:100%;
+    padding: 20px 192px 20px 32px;
+    border-radius: 500px;
+    border: 2px solid #e5e7eb;
+    font-size:16px;
+    font-weight: 500;
+    outline: none;
+    transition: border-color 300ms ease;
+
+}
+.header__input: focus{
+    border-color: #6415ff;
+}
+.header__btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    width: 160px;
+    background-color: #6415ff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+.header__btn:hover{
+    background-color: #500ad4;
+}
+.header_customers--title{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #a0aec0;
+    margin-bottom: 16px;
+}
+.header__customers--img{
+max-width: 100%;
+opacity: 0.75;
+}
+.header__img--wrapper{
+    width:50%;
+}
+.header__img{
+    width:100%;
 }
 
 

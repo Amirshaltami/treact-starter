@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Treact Clone</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -16,10 +16,18 @@
     <section id="landing">
         <nav>
             <div class="row nav__row">
-                <div class="nav__logo">
-                <!--  -->Nav Logo here<!--  -->
-                </div>
-                <!--  -->Enter Nav Links here<!--  -->
+                <a href="#" class="nav__logo">
+                    <img src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="Treact Logo" class="nav__logo--img" />
+                    <span class="nav__logo--text">Treact</span>
+                </a>
+                <ul class="nav__links">
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#blog" class="nav__link">Blog</a></li>
+                    <li><a href="#pricing" class="nav__link">Pricing</a></li>
+                    <li><a href="#contact" class="nav__link">Contact us</a></li>
+                    <li><a href="#login" class="nav__link nav__link--login">Login</a></li>
+                    <li><a href="#signup" class="nav__link nav__link--primary">Sign up</a></li>
+                </ul>
                 <button class="btn__menu" onclick="openMenu()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -52,7 +60,22 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <!--  -->Enter Header / About Us Section<!--  -->
+                    <div class="header__description">
+                        <h1 class="header__title">Beautiful React Templates <span class="purple">for you.</span></h1>
+                        <p class="header__para">Our templates are easy to use, fully customizable, and responsive right out of the box. Start building your website in minutes.</p>
+                        <div class="header__input--container">
+                            <input type="email" class="header__input" placeholder="Your E-mail Address" />
+                            <button class="header__btn">Get Started</button>
+                        </div>
+                        <div class="header__customers">
+                            <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+                            <img src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="Trusted customers" class="header__customers--img" />
+                        </div>
+                    </div>
+                    <div class="header__img--wrapper">
+                        <img src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="Header Graphic" class="header__img" />
+                    </div>
+                </div>
             </div>
         </header>
     </section>
@@ -60,56 +83,56 @@
         <section id="features">
             <div class="container">
                 <div class="row__narrow">
-                    <!--  -->Enter Features Section<!--  -->
+                    <!-- Enter Features Section -->
                 </div>
             </div>
         </section>
         <section id="quality">
             <div class="container">
                 <div class="row">
-                    <!--  -->Enter Quality Work Section<!--  -->
+                    <!-- Enter Quality Work Section -->
                 </div>
             </div>
         </section>
         <section id="steps">
             <div class="container">
                 <div class="row">
-                    <!--  -->Enter Steps Section<!--  -->
+                    <!-- Enter Steps Section -->
                 </div>
             </div>
         </section>
         <section id="values">
             <div class="container">
                 <div class="row">
-                    <!--  -->Enter Values Section<!--  -->
+                    <!-- Enter Values Section -->
                 </div>
             </div>
         </section>
         <section id="pricing">
             <div class="container">
                 <div class="row">
-                    <!--  -->Enter Pricing Section<!--  -->
+                    <!-- Enter Pricing Section -->
                 </div>
             </div>
         </section>
         <section id="testimonials">
             <div class="container">
                 <div class="row">
-                    <!--  -->Enter Testimonials Section<!--  -->
+                    <!-- Enter Testimonials Section -->
                 </div>
             </div>
         </section>
         <section id="start">
             <div class="container">
                 <div class="row">
-                    <!--  -->Enter "Start"/Call to action section<!--  -->
+                    <!-- Enter "Start"/Call to action section -->
                 </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="row footer__row">
-            <!--  -->Enter Footer<!--  -->
+            <!-- Enter Footer -->
         </div>
     </footer>
 </body>
