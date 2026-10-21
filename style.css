@@ -481,6 +481,70 @@ header .row {
     align-items: center;
 }
 
+.values__description {
+    width: 45%;
+}
+
+.values__img--wrapper {
+    width: 50%;
+}
+
+.values__img {
+    width: 100%;
+}
+
+.values__title {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.values__para {
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.values__grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.value {
+    width: 48%;
+}
+
+.value__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.value__icon--wrapper {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #e0e7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.value__icon {
+    color: #6415ff;
+    font-size: 14px;
+}
+
+.value__title h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.value__para {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #7c8ba1;
+}
+
 #pricing .row {
     display: flex;
     flex-direction: column;
