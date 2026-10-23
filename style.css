@@ -8,6 +8,10 @@
     color: #243e63;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     max-width: 100vw;
     overflow-x: hidden;
